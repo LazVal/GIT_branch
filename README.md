@@ -20,41 +20,42 @@ git branch CheckLists
 ```
 git push -u origin --all
 ```
-1. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-
+### _3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта_
+```
 git checkout bug_report
 touch BugReport_structure
 vim BugReport_structure
-
-4. Запушить структуру багрепорта на внешний репозиторий
-
+```
+### _4. Запушить структуру багрепорта на внешний репозиторий_
+```
 add .
 git commit -m "BugReport_structure"
 git push
-
-5. Вмержить ветку Bag Reports в Main
-
+```
+### _5. Вмержить ветку Bag Reports в Main_
+```
 git checkout main
 git merge bug_report
-
-6. Запушить main на внешний репозиторий.
-
+```
+### _6. Запушить main на внешний репозиторий._
+```
 git push origin main
-
-7. В ветке CheckLists набросать структуру чек листа.
-
+```
+### _7. В ветке CheckLists набросать структуру чек листа._
+```
 git checkout CheckLists
 git touch Checklists_structure
 vim Checklists_structure
-
-8. Запушить структуру на внешний репозиторий
+```
+### _8. Запушить структуру на внешний репозиторий._
+```
 add .
 git commit -m "Checklists_structure"
 git push
-
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
-
-10. Синхронизировать Внешнюю и Локальную ветки Main
-
+```
+### _9. На внешнем репозитории сделать Pull Request ветки CheckLists в main._
+### _10. Синхронизировать Внешнюю и Локальную ветки Main._
+```
 git checkout main
 git pull
+```
