@@ -1,7 +1,7 @@
 # GIT_branch
 ### _GitHub. HW_2_
 
-### _1. На локальном репозитории сделать ветки для:_2_
+### _1. На локальном репозитории сделать ветки для:_
 
 - Postman
 - Jmeter
@@ -10,17 +10,17 @@
 - SQL
 - Charles
 - Mobile testing
-
+```
 git branch Postman
 git branch Jmeter
 git branch CheckLists
-……..
-
-2. Запушить все ветки на внешний репозиторий
-
+...
+```
+### _2. Запушить все ветки на внешний репозиторий_
+```
 git push -u origin --all
-
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+```
+1. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
 
 git checkout bug_report
 touch BugReport_structure
