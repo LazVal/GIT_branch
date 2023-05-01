@@ -1,0 +1,11 @@
+Id    Tester Actions    Actual Reult    Comments
+
+1     Navigate to ...     Passed
+
+2     Registration on     Failed        Incorrect email address
+      the website ...    
+
+3     Authorization on    Failed        Account does not exist
+      the website ...
+
+
